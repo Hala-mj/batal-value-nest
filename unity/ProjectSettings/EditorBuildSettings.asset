@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Interfaces/Khadijah/Parent Account.unity
+    guid: 961f148b9124f41b0b15414b50da73b3
+  - enabled: 1
+    path: Assets/Interfaces/Khadijah/sign Out.unity
+    guid: 50d30972c8e2c45cc91ea3db9adfabe5
+  - enabled: 1
+    path: Assets/Interfaces/Khadijah/Settings.unity
+    guid: c13bc83045bbd42d0b3823d30d47175a
+  - enabled: 1
+    path: Assets/Interfaces/Mawaddah/Home.unity
+    guid: e0973a8aaa1ae40e09721208de8900db
+  - enabled: 1
+    path: Assets/Interfaces/Khadijah/Sign in.unity
+    guid: 70e916daee4494d32b3e717999775ae6
+  - enabled: 1
+    path: Assets/Interfaces/Khadijah/Sing up.unity
+    guid: b1691ff80863043d8ac7dc088321044f
+  - enabled: 1
+    path: Assets/Interfaces/Shaima/Add Tasks.unity
+    guid: f37b7ba67902d445aae80f002b100533
+  - enabled: 1
+    path: Assets/Interfaces/Shaima/Built in tasks(Die).unity
+    guid: 414753629c9db4ac4a4e6c04e5493e3a
+  - enabled: 1
+    path: Assets/Interfaces/Mawaddah/Progress.unity
+    guid: d07af6936465a491b86fe59bc1390d3a
+  - enabled: 1
+    path: Assets/Interfaces/Shaima/New Task.unity
+    guid: be621c109720f4293abddfbc45f04344
+  - enabled: 1
+    path: Assets/Interfaces/Mawaddah/Prayer tracker.unity
+    guid: 06d6a339c4c8540a1807885992b9f0f7
+  - enabled: 1
+    path: Assets/Interfaces/Shaima/Add Child.unity
+    guid: bf7c6cb3ae6cb4a8e9173e97064d2950
+  - enabled: 0
+    path: Assets/Interfaces/Hala/Child account1.unity
+    guid: 1f42209d9c59d40f0bb35bfc3eb37cca
+  - enabled: 1
+    path: Assets/Interfaces/Mawaddah/Rewards inventory.unity
+    guid: 7aa8cb3e680f142b1b3b66994ff5b9d6
+  - enabled: 1
+    path: Assets/Interfaces/Mawaddah/TO Do list.unity
+    guid: 8313028fc239a412387cb3a69ac7613f
+  - enabled: 1
+    path: Assets/Interfaces/Mawaddah/child-login.unity
+    guid: a4ce9ea7a14714dba85e9d83183b00bb
+  - enabled: 1
+    path: Assets/Interfaces/Hala/Initiate challenges.unity
+    guid: 994476d5ae6f341a8a5e4e25faab14a4
+  - enabled: 1
+    path: Assets/Interfaces/Hala/Challenges arena.unity
+    guid: 08cb34fbd3e394471a89196443fc7da0
+  - enabled: 1
+    path: Assets/Interfaces/Hala/Messages.unity
+    guid: 132f196c91d17944d99cfa6174fdc6fb
+  - enabled: 1
+    path: Assets/Interfaces/Shaima/Built in tasksDIE.unity
+    guid: 548fbc35c43b944a0bfb164ff1b974b3
+  - enabled: 1
+    path: Assets/Interfaces/Shaima/Built in tasks.unity
+    guid: 0d91c82f1d83a4479b304088bc8ef871
+  - enabled: 1
+    path: Assets/Interfaces/Shaima/New Task.unity
+    guid: be621c109720f4293abddfbc45f04344
+  - enabled: 1
+    path: Assets/Interfaces/Shaima/Kid Dashboard(Die).unity
+    guid: b28f587f48aaa4c4e9e5b88322e4a34d
+  - enabled: 1
+    path: Assets/Interfaces/Hala/Child account.unity
+    guid: 48f8c1c8a3295454387c4dd218abcceb
+  - enabled: 1
+    path: Assets/Interfaces/Hala/Send Messag.unity
+    guid: 2d4d8249b9d9e44d283abdd42ecadf77
+  - enabled: 1
+    path: Assets/Interfaces/Hala/Give Rewards.unity
+    guid: 3022279ee4ca07941bca91c7c7120bb5
+  - enabled: 1
+    path: Assets/Interfaces/Khadijah/Parent Account 1.unity
+    guid: 5e8a167240fdb43e7a6aba014506ca38
+  - enabled: 1
+    path: Assets/Interfaces/Shaima/Kid Dashboard.unity
+    guid: 608b1fb3ae49542f48c6b885409370a2
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 7cd962caecf7f544f8beec3223629583, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 2b6ecc3772a984fe2ad645902ee2016a, type: 2}

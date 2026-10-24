@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 9415cac7fa6ad4bac9de1ce6e85c720e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - emailField: {instanceID: 0}
+  - phoneNumberField: {instanceID: 0}
+  - passwordField: {instanceID: 0}
+  - lastNameField: {instanceID: 0}
+  - firstNameField: {instanceID: 0}
+  - categoryField: {instanceID: 0}
+  - signUpButton: {instanceID: 0}
+  - warningWindow: {instanceID: 0}
+  - warningMessage: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

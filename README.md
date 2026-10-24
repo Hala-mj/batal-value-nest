@@ -10,7 +10,7 @@ Most habit-tracking apps for kids focus on routines and target English-speaking 
 
 Parents create an account, add their children, assign built-in or custom tasks linked to a value, and send rewards and encouraging messages. Children complete tasks, earn coins, pick an avatar and follow their own progress.
 
-This repository holds the **PHP + MySQL backend** (REST-style endpoints that return JSON) and the **database schema**. The client app was built in **Unity (C#)** as a separate project. It is not included here.
+This repository holds the **PHP + MySQL backend** (REST-style endpoints that return JSON), the **database schema**, and the **Unity (C#) client** under [`unity/`](unity/).
 
 > 🎥 A demo video of the full app (Unity client + this backend) is available on request.
 
@@ -28,7 +28,7 @@ This repository holds the **PHP + MySQL backend** (REST-style endpoints that ret
 
 | Layer | Technology |
 |------|------------|
-| Client app | Unity (C#), Visual Studio *(separate project, not in this repo)* |
+| Client app | Unity 2022.3 LTS (C#) — see [`unity/`](unity/) |
 | Backend | PHP 8 (mysqli, prepared statements) |
 | Database | MySQL / MariaDB (exported from phpMyAdmin) |
 | Local server | XAMPP (Apache + MariaDB) |
@@ -60,6 +60,23 @@ Project documentation (student IDs removed):
 5. Test an endpoint, for example `http://localhost/BVN/getValues.php`, which should return the list of values as JSON.
 6. Point the Unity client's base URL to `http://<your-ip>/BVN/`.
 
+
+## Unity client
+
+The mobile/desktop client lives in [`unity/`](unity/) (Unity **2022.3.17f1**).
+
+### Open in Unity Hub
+
+1. Install [Unity Hub](https://unity.com/download) and the **Unity 2022.3 LTS** editor (matching `unity/ProjectSettings/ProjectVersion.txt`).
+2. In Unity Hub → **Open** → select the `unity/` folder in this repository.
+3. On first open, Unity regenerates `Library/` (git-ignored). Wait for import to finish.
+4. Open a scene under `Assets/` (for example `ARAAAABIC.unity` or `TestArabic.unity`) and press Play.
+5. Point the client base URL at your local backend, e.g. `http://<your-ip>/BVN/` (same host as in Getting Started above).
+
+Generated folders such as `Library/`, `Temp/`, `Obj/`, `Logs/`, and `UserSettings/` are ignored and should not be committed.
+
+Team scripts under `Assets/Scripts/DataBaseScripts/` are organized by teammate folders (`Hala`, `Khadijah`, `Mawaddah`, `Shaima`) for API/UI wiring to this backend.
+
 ## API Endpoints (summary)
 
 | Endpoint | Method | Purpose |
@@ -87,6 +104,11 @@ batal-value-nest/
 │   ├── *.php                # API endpoints (see table above)
 │   ├── Icons/               # reward icons
 │   └── images/avatars/      # child avatars
+├── unity/                   # Unity 2022.3 client (C#)
+│   ├── Assets/
+│   ├── Packages/
+│   ├── ProjectSettings/
+│   └── .gitignore           # ignores Library/Temp/Obj/Builds/Logs
 ├── database/
 │   └── schema.sql           # tables + reference data (values, tasks, icons)
 └── docs/

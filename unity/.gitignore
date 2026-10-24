@@ -1,0 +1,36 @@
+# Unity generated / bulky folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+Build/
+build1_BurstDebugInformation_DoNotShip/
+
+# IDE / OS
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+mono_crash.*.json
+
+# Plastic / duplicates
+.plastic/
+Assets_dst/
+**/Adaptive Performance_dst/
+**/TextMesh Pro_dst/
