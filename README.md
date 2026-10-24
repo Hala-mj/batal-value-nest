@@ -39,7 +39,10 @@ This repository holds the **PHP + MySQL backend** (REST-style endpoints that ret
 |---|---|
 | ![Parent side](docs/screenshots/parent-side.jpg) | ![Child side](docs/screenshots/child-side.jpg) |
 
-The full project poster is at [`docs/poster.jpg`](docs/poster.jpg) and the presentation is at [`docs/BVN_Presentation.pdf`](docs/BVN_Presentation.pdf).
+Project documentation (student IDs removed):
+- Final report: [`docs/BVN_Final_Report.pdf`](docs/BVN_Final_Report.pdf)
+- Presentation: [`docs/BVN_Presentation.pdf`](docs/BVN_Presentation.pdf)
+- Poster: [`docs/BVN_Poster.pdf`](docs/BVN_Poster.pdf) / [`docs/poster.jpg`](docs/poster.jpg)
 
 ## Getting Started (XAMPP)
 
@@ -87,7 +90,9 @@ batal-value-nest/
 ├── database/
 │   └── schema.sql           # tables + reference data (values, tasks, icons)
 └── docs/
+    ├── BVN_Final_Report.pdf
     ├── BVN_Presentation.pdf
+    ├── BVN_Poster.pdf
     ├── poster.jpg
     └── screenshots/
 ```
@@ -103,7 +108,7 @@ batal-value-nest/
 Graduation project (CSAI-461, Final Year Project in Computer Science) at the **Department of Computer Science and Artificial Intelligence, College of Computing, Umm Al-Qura University**, 2024–2025.
 Team **Hero Builders**: Hala Jalal, Khadijah Gheliwi, Shaima Al-Khuzaee and Mawaddah Dehlawi. Supervised by Dr. Elham Mahjoob Hassanain.
 
-Built by **Hala Jalal** as a university project at Umm Al-Qura University (CSAI-461 – Graduation Project).
+Team university graduation project. **Hala Jalal** contributed as a member of Hero Builders (CSAI-461).
 
 ## License
 
